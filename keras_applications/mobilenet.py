@@ -63,8 +63,8 @@ from .imagenet_utils import decode_predictions
 from .imagenet_utils import _obtain_input_shape
 
 
-BASE_WEIGHT_PATH = ('https://github.com/fchollet/deep-learning-models/'
-                    'releases/download/v0.6/')
+BASE_WEIGHT_PATH = ('https://storage.googleapis.com/tensorflow/'
+                    'keras-applications/mobilenet/')
 
 backend = None
 layers = None
